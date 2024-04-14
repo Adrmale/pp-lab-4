@@ -20,7 +20,7 @@ public class Employee {
         this.salary = newSalary;
     }
 
-    @Override
+ 
     public String toString() {
         return "Employee: " + fullName + ", Salary: " + salary;
     }
