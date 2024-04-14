@@ -7,7 +7,6 @@ public class Employee {
         this.fullName = fullName;
         this.salary = salary;
     }
-
     public String getFullName() {
         return fullName;
     }
