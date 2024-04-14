@@ -7,8 +7,8 @@ public class Company {
         employees[2] = new Worker("Robert Lewandowski", 7000);
         employees[3] = new Worker("Jan Wolski", 2000500);
         employees[4] = new Worker("Kuba Blaszczykowski", 300000);
-        employees[5] = new Manager("Emanuel Akanji", 80000); // Nowy Manager
-        employees[6] = new Worker("Jack Grealish", 60000); // Nowy Worker
+        employees[5] = new Manager("Emanuel Akanji", 80000); 
+        employees[6] = new Worker("Jack Grealish", 60000); 
 
         for (Employee emp : employees) {
             double newSalary = emp.getSalary() + 500;
