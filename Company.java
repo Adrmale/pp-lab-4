@@ -8,7 +8,7 @@ public class Company {
         employees[3] = new Worker("Jan Wolski", 2000500);
         employees[4] = new Worker("Kuba Blaszczykowski", 300000);
 
-        // Zliczanie pracowników, którzy nie są managerami
+      
         int nonManagerCount = 0;
         for (Employee emp : employees) {
             if (!(emp instanceof Manager)) {
@@ -16,13 +16,13 @@ public class Company {
             }
         }
 
-        // Ustawienie liczby podwładnych dla managera o indeksie 0
+       
         ((Manager) employees[0]).setNumberOfSubordinates(nonManagerCount);
 
-        // Ustawienie pensji dla pracownika o indeksie 0
+       
         employees[0].setSalary(7500);
 
-        // Wyświetlanie danych dla wszystkich pracowników
+        
         System.out.println("Dane wszystkich pracowników:");
         for (Employee emp : employees) {
             System.out.println(emp);
